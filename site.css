@@ -71,14 +71,15 @@ body {
 }
 
 .info-section .info-image {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 10px 0;
+    float: left; /* Make the image float to the left */
+    margin-right: 15px; /* Add some margin to separate the image from the text */
+    max-width: 100px; /* Limit the width of the image */
+    height: auto; /* Maintain aspect ratio */
 }
 
 .info-section p {
-    margin: 10px 0;
+    margin-top: 0; /* Remove default top margin for paragraphs */
+    text-align: justify; /* Justify the text */
 }
 
 /* Footer styles */
